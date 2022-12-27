@@ -1,0 +1,63 @@
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: black;
+    padding: 0;
+    margin: 50px;
+    background-image: url(img/snow-pup-removebg-preview.png);
+    background-repeat:repeat-x;
+}
+/*slide css başlangıç*/
+
+.mySlides {
+    float: left;
+    display: none;
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.mySlides img {
+    vertical-align: middle;
+    width:100%;
+    height:500px;
+    object-fit:cover;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+}
+
+/* Solma animasyonu */
+.fade1 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*slide css bitiş*/
+
+.badge{
+    border-radius:0 ;
+}
+
+/* slider frame*/
+
+.snow{
+  position: absolute;
+  z-index: 99;
+  top: 105px;
+  left: -140px;
+  width: 950px;
+  height: 500px;
+}
+.snow img{
+  width: 100%;
+  height: 500px;
+}
+/* slider frame*/
