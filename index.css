@@ -51,7 +51,7 @@ body {
 .snow{
   position: absolute;
   z-index: 99;
-  top: 105px;
+  top: 115px;
   left: -140px;
   width: 950px;
   height: 500px;
